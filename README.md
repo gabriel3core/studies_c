@@ -1,10 +1,11 @@
 # studies_c
 
-<h1 style="color:#FFFF00">
+<h1 style="color:#FFFF00"> 
   Estudos de estrutura de dados em C
-</h1>
+</ht>
+
 <ul>
-        <li>Fila</li>
-        <li>Pilha</li>
-        <li>Ponteiros</li>
+    <li>Fila</li>
+    <li>Pilha</li>
+    <li>Ponteiros</li>
 </ul>
