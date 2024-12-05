@@ -1,7 +1,7 @@
 # studies_c
 
 <h2>
-  Estudos de estrutura de dados em &#xU+1F1E8
+  Estudos de estrutura de dados em &#x1F1E8
 </h2>
 
 <ul>
