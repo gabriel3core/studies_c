@@ -1,8 +1,8 @@
 # studies_c
 
-<h1 style="color: #FFFF00;">
+<h2>
   Estudos de estrutura de dados em C
-</h1>
+</h2>
 
 <ul>
     <li>Fila</li>
