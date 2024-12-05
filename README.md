@@ -4,9 +4,7 @@
   Estudos de estrutura de dados em C
 </h1>
 <ul>
-    <code>
         <li>Fila</li>
         <li>Pilha</li>
         <li>Ponteiros</li>
-    </code>
 </ul>
