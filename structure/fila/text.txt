@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int const TAMANHO = 5;
+int frente, tras;
+int fila[TAMANHO];
+
+void inicia_fila(){
+	frente = 0;
+	tras = -1;
+}
+
+bool Fila_Vazia(){
+	if(tras == -1){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+bool Fila_Cheia(){
+	if(tras == TAMANHO - 1){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+void enfileirar(int valor){
+	if(Fila_Cheia()){
+		printf("fila cheia\n");
+	}else{
+	tras ++;
+	fila[tras]= valor;
+	}
+}
+void organizar(){
+	if(frente > 0){
+		for(int i = 0;i < tras;i++){
+			fila[i] = fila[i+1];
+		}
+		frente --;
+		tras --;
+	}
+}
+
+void desenfileirar(int &valor){
+	if(Filha_Vazia()){
+		printf("Fila Vazia\n");
+	}else{
+		valor = fila[frente];
+		frente++;
+		organizar();
+	}
+}
+
+int tamanho(){
+	return (tras - frente)+1;
+}
+
+void mostrar(){
+	for(int i=0;tras >= i ;i++){
+        printf("%d ",fila[i]);
+    }
+}
+
+void fila_exibe(int &valor){
+ if(Fila_Vazia()){
+      printf("fila vazia\n");
+   }else{
+ 	  valor = fila[frente];
+ 	  printf("primerio elemento da fila %d\n",valor);
+   }
+}
+
+int main(){
+    
+    int valor;
+	inicia_fila();
+    
+	enfileirar(90);
+	enfileirar(20);
+	enfileirar(30);
+	enfileirar(30);
+}
+
