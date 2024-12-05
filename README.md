@@ -2,7 +2,7 @@
 
 <h1 style="color:#FFFF00"> 
   Estudos de estrutura de dados em C
-</ht>
+</h1>
 
 <ul>
     <li>Fila</li>
